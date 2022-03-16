@@ -1,0 +1,17 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		// Exercício 1
+		
+		int x;
+		int y;
+		x = 10;
+		y = 30;
+				
+		System.out.print("SOMA + " + x*y);
+
+	}
+
+}

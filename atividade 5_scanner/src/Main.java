@@ -1,0 +1,67 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+			// Função apresenta erro, pois precisa importar a biblioteca java.util.Scanner
+				
+		// Para receber uma palavra do teclado (sem espaço)
+		
+		/* 
+		
+		String x;
+		x = sc.next();
+		// isso permite que eu digite uma palavra e ela seja armazenada na variável 'x'
+		System.out.println("Voce digitou: " + x);
+		sc.close();
+		
+		*/
+		/*
+		
+		// Para receber um número inteiro
+		int y;
+		y = sc.nextInt();
+		System.out.println("Você digitou: " + y);
+		sc.close();
+		
+		*/
+		/*
+
+		// Para receber um número com ponto flutuante
+		double z;
+		z = sc.nextDouble();
+		System.out.println("Você digitou: " + z);
+		sc.close();
+		
+		*/
+		/*
+		 
+		// Para receber um caractere
+		char w;
+		w = sc.next().charAt(1);
+		System.out.println("Você digitou: " + w);
+		sc.close();
+		
+		//charAt(posição do caracter na informação de entrada
+		
+		*/
+		
+		// Para ler vários dados na mesma linha
+		String a;
+		int b;
+		double c;
+		a = sc.next();
+		b = sc.nextInt();
+		c = sc.nextDouble();
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		sc.close();
+		// Digitei: Maria 30 4,5    nessa ordem e com espaço, sem vírgula
+		
+		
+	}
+
+}

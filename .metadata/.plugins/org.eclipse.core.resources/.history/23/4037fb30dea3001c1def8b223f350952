@@ -1,0 +1,50 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		// Expressões Comparativas
+		//
+		// 	Operadores
+		// 	<  		menor
+		// 	>  		maior
+		// 	<=  	menor igual
+		// 	>=  	maior igual
+		// 	==  	igual
+		// 	!=  	diferente
+		 
+		// Expressões lógicas
+		// 
+		//  && 		'E'		Tabela verdade do operador 'E'		
+		// 
+		// 						A  B  A&&B
+		// 						F  F   F
+		// 						F  V   F  
+		// 						V  F   F
+		//  					V  V   V
+		// 
+		//  || 		'OU' 	Tabela verdade do operador 'OU'
+		// 
+		// 	(alt + 124)			A  B  A||B
+		// 						F  F   F
+		// 						F  V   V  
+		// 						V  F   V
+		//  					V  V   V		// 
+		// 
+		//  !( )	'NÃO'	Tabela verdade do operador 'NÃO'
+		// 
+		// 						A   !A
+		// 						F   V
+		// 						V   F 
+		// 
+		// 
+		// 
+		// 
+		// 
+		// 
+		// 
+		 
+
+	}
+
+}

@@ -1,0 +1,101 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		/* Exercício 1
+		
+			Scanner sc = new Scanner(System.in);
+			
+			int x, y, soma;
+	
+			x = sc.nextInt();
+			y = sc.nextInt();
+			soma = x + y;
+					
+			System.out.print("SOMA = " + soma);
+			
+			sc.close();
+		*/
+		
+		/* Exercício 2
+		  
+			Locale.setDefault(Locale.US);
+			Scanner sc = new Scanner(System.in);
+
+			double r, A, pi = 3.14159;
+		 	
+		 	r = sc.nextDouble();
+		 	A = pi * (Math.pow(r, 2));			// ou A = pi * r * r
+		 	
+		 	System.out.printf("A=%.4f%n", A);
+		 
+		*/
+		
+		/* Exercício 3
+		
+			Scanner sc = new Scanner(System.in);
+			
+			int A, B, C, D, Dif;
+			
+			A = sc.nextInt();
+			B = sc.nextInt();
+			C = sc.nextInt();
+			D = sc.nextInt();
+			Dif = A * B - C * D;
+			
+			System.out.println("DIFERENÇA = " + Dif);
+			
+			sc.close();
+		
+		*/
+		
+		
+		/* Exercício 4
+		
+			Locale.setDefault(Locale.US);
+			Scanner sc = new Scanner(System.in);
+			
+			int N;
+			double H, V, salario;
+			
+			N = sc.nextInt();
+			H = sc.nextDouble();
+			V = sc.nextDouble();
+			salario = H * V;
+			
+			System.out.printf("NUMBER = %d%nSALARY = U$ %.2f", N, salario);
+			
+			sc.close();
+			
+		*/	
+		
+		// Exercicio 5
+		
+			Locale.setDefault(Locale.US);
+			Scanner sc = new Scanner(System.in);
+		
+			int C1, N1, C2, N2;
+			double V1 , V2, Total;
+			
+			C1 = sc.nextInt();
+			N1 = sc.nextInt();		
+			V1 = sc.nextDouble();
+			C2 = sc.nextInt();
+			N2 = sc.nextInt();
+			V2 = sc.nextDouble();	
+			
+			Total = N1 * V1 + N2 * V2;
+			
+			System.out.printf("VALOR A PAGAR: R$ %.2f", Total);
+			
+			sc.close();
+			
+			
+			
+			
+	}
+
+}
