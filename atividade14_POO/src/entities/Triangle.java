@@ -1,8 +1,9 @@
-package entities;
+package entities;   // Pacote da classe
 
-public class Triangle {
+public class Triangle {		// Nome da classe
 
-	public double a;   	   			// atributos: lados do triangulo a, b e c
+	
+	public double a;   	   			// atributos da classe: lados do triangulo a, b e c
 	public double b;				// public define que essa classe pode ser acessada por outro programa
 	public double c;
 		
@@ -14,7 +15,10 @@ public class Triangle {
 		return result;
 		// poderia ser direto 
 		// return Math.sqrt((p * (p - a) * (p - b) * ( p - c));
-		
+	
+	// public indica que o atributo ou método pode ser usado por outros arquivos	
+	
+	// double é o tipo do dado que o método retorna (se não retorna nada, usa-se "void")
 	
 	}
 	
